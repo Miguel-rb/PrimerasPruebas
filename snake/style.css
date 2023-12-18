@@ -1,0 +1,30 @@
+* {
+
+font-family: 'Share Tech Mono', monospace;
+
+}
+
+#start, .boardinfo {
+    font-size: 25px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#gameover {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: red;
+    color: white;
+    border: none;
+}
